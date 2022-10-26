@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <label for="temp">Choose your password length</label><br />
+    <input type="range" value="24" min="1" max="50" oninput="this.nextElementSibling.value = this.value">
+    <output>24</output>
+
+    <input type="checkbox" name="uppercase_Letters" id="uppercase_Letters">
+    <input type="checkbox" name="lowercase_letters" id="lowercase_letters">
+    <input type="checkbox" name="symbols" id="symbols">
+    <input type="checkbox" name="numbers" id="numbers">
+
+
+
+  </body>
+</html>
