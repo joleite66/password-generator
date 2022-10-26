@@ -1,6 +1,6 @@
 # Password Generator APP - Javascript
 
-### The challenge was to make a password generator with Javascript
+### I needed to create a strong password for my work so I create a password generator with Javascript to help me with that.
 
 - Generate a password based on the inclusion options selected;
 - Get a strength rating for the password;
