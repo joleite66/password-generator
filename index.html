@@ -10,37 +10,49 @@
   <body>
     <div class="container">
       <div class="password-generator">
-        <h2>Password Generator</h2>
+        <h1>Password Generator</h1>
         <div class="password">
-          <p id="passwordBox"></p><i class="copy_button" onclick="copyPassword()">Copy</i></i>
+          <p id="passwordBox"></p>
+          <i class="copy_button" onclick="copyPassword()">Copy</i>
         </div>
         <div>
-          <label for="length">Length</label>
-          <input type="range"  id="length" value="24" min="6" max="50" oninput="this.nextElementSibling.value = this.value">
-          <output>24</output>
+          <input
+            type="range"
+            id="length"
+            value="24"
+            min="6"
+            max="50"
+            oninput="this.nextElementSibling.value = this.value"
+          />
+          <output>24</output><label for="length">Length</label>
         </div>
 
         <div>
-          <input type="checkbox" id="symbol" checked>
+          <input type="checkbox" id="symbol" checked />
           <label for="symbol">Include Symbol</label>
-
         </div>
         <div>
-          <input type="checkbox" id="number" checked>
+          <input type="checkbox" id="number" checked />
           <label for="number">Include Number</label>
-
         </div>
         <div>
-          <input type="checkbox" id="lowerCase" checked>
+          <input type="checkbox" id="lowerCase" checked />
           <label for="lowerCase">Include lowerCase</label>
-
         </div>
         <div>
-          <input type="checkbox" id="upperCase" checked>
+          <input type="checkbox" id="upperCase" checked />
           <label for="upperCase">Include upperCase</label>
-          
         </div>
-        <button onclick="createPassword()">Get Random Password</button>
+        <button onclick="createPassword()">Generate Password</button>
+        <div class="light x1"></div>
+        <div class="light x2"></div>
+        <div class="light x3"></div>
+        <div class="light x4"></div>
+        <div class="light x5"></div>
+        <div class="light x6"></div>
+        <div class="light x7"></div>
+        <div class="light x8"></div>
+        <div class="light x9"></div>
       </div>
     </div>
   </body>
