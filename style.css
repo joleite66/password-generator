@@ -72,10 +72,7 @@ button {
   height: 10%;
   border-radius: 25px;
   opacity: 0.5;
-  top: 70%;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  bottom: 10%;
   margin: auto;
   transition: 0.3s;
   color: rgb(255, 255, 255);
